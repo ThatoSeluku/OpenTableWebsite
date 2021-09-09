@@ -81,6 +81,21 @@ p {
   margin-top: 0;
   margin-bottom: 1rem; }
 
+
+  .buttcontainer {
+    height: 200px;
+    position: relative;
+  }
+  
+  .buttvertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
